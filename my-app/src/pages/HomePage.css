@@ -1,0 +1,79 @@
+/* 背景設置 */
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* 中央框框 */
+  .frame {
+    width: 360px;
+    height: 640px; /* 9:16 比例 */
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Header (Username + 設定) */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .username {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .settings-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  /* 中間 Logo */
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .logo-image {
+    width: 218px;
+    height: 286px;
+  }
+  
+  /* 底部按鈕 */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  

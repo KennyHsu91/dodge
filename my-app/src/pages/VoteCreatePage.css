@@ -1,0 +1,98 @@
+/* 背景設置 */
+.vote-create-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* 中央框框 */
+  .frame {
+    width: 360px;
+    height: 640px; /* 9:16 比例 */
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  .header {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* 中間輸入區域 */
+  .content {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    height: 80px;
+  }
+  
+  .checkbox-label {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* 底部按鈕 */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
